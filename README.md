@@ -7,7 +7,7 @@ the reason why its in procedural approach is because its a procedure followed on
 install "freeglut3-dev" or "freeglut-devel" and to make a application on the command line us these linker options:
 - -lGL -lGLU -lglut -lm
 
-here lm is required for linking libm (math library?)
+here "-lm" is required for linking libm (math library?)
 
 # For Windows
 idk, google it
